@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SI KOMO</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_belajar_angka">BelajarAngka</string>
+    <string name="title_activity_nol">Nol</string>
+    <string name="title_activity_berhitung_angka">BerhitungAngka</string>
+    <string name="title_activity_soal1">Soal 1</string>
+</resources>

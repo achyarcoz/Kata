@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.aljakarti.achyar.kata.LayarUtama"
+    tools:showIn="@layout/activity_layar_utama"
+    android:orientation="vertical"
+    android:background="@drawable/utama">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="bottom">
+
+        <Button
+            android:id="@+id/angka"
+            android:layout_width="165dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="ANGKA"
+            android:textStyle="bold"
+            android:textColor="@android:color/background_light"
+            android:textSize="25dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginBottom="10dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+        <Button
+            android:id="@+id/berhitung"
+            android:layout_width="165dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="BERHITUNG"
+            android:textStyle="bold"
+            android:textColor="@android:color/background_light"
+            android:textSize="25dp"
+            android:layout_marginLeft="40dp"/>
+    </LinearLayout>
+</LinearLayout>
